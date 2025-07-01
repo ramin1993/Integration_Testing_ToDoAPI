@@ -1,0 +1,6 @@
+@Integration_Testing_ToDoAPI_HostAddress = http://localhost:5118
+
+GET {{Integration_Testing_ToDoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
