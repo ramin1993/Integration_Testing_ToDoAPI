@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI.csproj": {}
+    "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\MyAwesomeLibrary\\MyAwesomeLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI.csproj": {
+    "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\MyAwesomeLibrary\\MyAwesomeLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI.csproj",
-        "projectName": "Integration_Testing_ToDoAPI",
-        "projectPath": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\MyAwesomeLibrary\\MyAwesomeLibrary.csproj",
+        "projectName": "MyAwesomeLibrary",
+        "projectPath": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\MyAwesomeLibrary\\MyAwesomeLibrary.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\CI CD DevOps\\Integration_Testing_ToDoAPI\\Integration_Testing_ToDoAPI\\MyAwesomeLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -47,14 +47,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            }
-          },
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -67,9 +61,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
